@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwest's Webpage</title>
+
+    <style>
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b0a4ff;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            border: 4px solid #000;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        nav a {
+            font-weight: bold;
+            margin-right: 20px;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.6);
+            border: 5px solid #000;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 10px 10px 0px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            margin-top: 0;
+            color: #970000;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .profile-img {
+            border: 3px solid #000;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .item-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            padding-bottom: 15px;
+        }
+
+        .item-group:last-child {
+            border-bottom: none;
+        }
+
+        .item-group img {
+            border: 2px solid #000;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="test.html">Form and Stuff</a>
+    </nav>
+
+    <section>
+        <h1>Welcome to my Home/About Page</h1>
+    </section>
+
+    <section>
+        <img src="./assets/IMG_20251016_114409.jpg" alt="Kwest Koduah" width="255" class="profile-img">
+        <p><strong>Name:</strong> Kwest Koduah</p>
+        <p><strong>School Email:</strong> 28kkoduah@pittsfield.net</p>
+        <p><strong>Age:</strong> 16 years old</p>
+        <p><strong>School:</strong> Taconic High School |10th Grade | Expected Graduation: June 2028</p>
+        <p><strong>Current GPA:</strong> 95.6</p>
+    </section>
+
+    <section>
+        <h1>Experience</h1>
+        <p>McDonalds | Pittsfield, MA | March 2026 – Present</p>
+        <p><strong>Position:</strong> Crew Member</p>
+        <p>• Greeting guests, managing orders, and ensuring a positive experience.</p>
+        <p>• Serving food and beverages according to safety, quality, and hygiene standards</p>
+        <p>• Operating registers, processing payments (cash/card), and providing accurate change.</p>
+        <p>• Assisting with stocking, working efficiently during peak times, and communicating with team members and managers.</p>
+        <p><strong>Past Schools:</strong> Reid Middle School, Morningside Community School</p>
+    </section>
+
+    <section>
+        <h1>Projects</h1>
+        <p><strong>Horticulture Project:</strong> A project that I made with my friend Isaiah for the Horticulture shop at Taconic High School</p>
+        <p><strong>This Webpage your reading from:</strong> A project that just sums up information about me and presents it on this very webpage</p>
+    </section>
+
+    <section>
+        <h2>Favorites: Food & Drink</h2>
+
+        <div class="item-group">
+            <img src="./assets/download (5).jpeg" height="150" width="150" alt="Pumpkin Pie">
+            <p><strong>Pumpkin Pie:</strong> This is easily the best food in the world. In my opinion, it is a 10/10 dessert and I could eat it forever!</p>
+        </div>
+
+        <div class="item-group">
+            <img src="./assets/download (1).jpeg" height="150" width="150" alt="Sprite">
+            <p><strong>Sprite:</strong> My favorite drink (besides water). I love anything lemon-lime flavored, but Sprite is my all time favorite.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Gaming & Hobbies</h2>
+
+        <div class="item-group">
+            <img src="./assets/download.png" height="150" width="150" alt="Roblox">
+            <p><strong>Roblox:</strong> I spend a lot of my time on Roblox with friends. I enjoy the variety of genres available on the platform.</p>
+        </div>
+
+        <div class="item-group">
+            <img src="./assets/download.jpeg" height="150" width="150" alt="Ark">
+            <p><strong>Ark: Survival Evolved:</strong> An amazing survival game set in a unique dinosaur-themed world. It is one of the best games I've played.</p>
+        </div>
+
+        <div class="item-group">
+            <img src="./assets/download (6).jpeg" height="150" width="150" alt="Steam">
+            <p><strong>Steam:</strong> I use this platform to manage and play the large majority of my gaming library.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Travel & Life</h2>
+        <div class="item-group">
+            <img src="./assets/download (2).jpeg" height="200" width="250" alt="Travel">
+            <p>I love traveling with my family. Visiting Ghana to see my cousins and my Dad's side of the family is always fun. I enjoy exploring new places and seeing things I've never seen before.</p>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>
