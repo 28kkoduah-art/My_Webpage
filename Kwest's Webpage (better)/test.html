@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwest's Homepage | About</title>
+    <style>
+        /* General Page Setup */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b0a4ff;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px;
+            border: 4px solid #000;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Section Styling (Replaces the .box classes) */
+        section {
+            background-color: rgba(255, 255, 255, 0.6);
+            border: 5px solid #000;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 10px 10px 0px rgba(0,0,0,0.1); /* Adds a formal 'pop' */
+        }
+
+        h1, h2 {
+            margin-top: 0;
+            color: #970000;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Image and Gallery Styling */
+        .profile-img {
+            border: 3px solid #000;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .item-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            padding-bottom: 15px;
+        }
+
+        .item-group:last-child {
+            border-bottom: none;
+        }
+
+        .item-group img {
+            border: 2px solid #000;
+            object-fit: cover;
+            flex-shrink: 0; /* Prevents images from squishing */
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+    </style>
+    </head>
+    <body>
+<title> Kwest's Webpage</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <!-- <a href="about.html">About</a> -->
+            <a href="test.html">Form and Stuff</a>
+        </nav>
+
+        <section>
+            <h1>Here's a form</h1>
+<h1 style="color: black;" class="box">
+<form action="index.php" method="POST" encrypt="multipart/form-data">
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" minlength="6" placeholder="Heathcliff" maxlength="15" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="erlkingheathcliff@gmail.com" required><br>
+
+    <label for="phone">Phone #:</label>
+    <input type="tel" id="phone" placeholder="413-143-3341" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+    <label for="bday">Birthday:</label>
+    <input type="date" id="bday"><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+    <label for="title">Title:</label>
+    
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." value="Mr." name="title">     
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Ms." value="Ms."  name="title">
+    <label for="PhD">PhD </label>
+    <input type="radio" id="PhD" value="PhD"  name="title"><br>
+
+    <label for="payment">Payment:</label>
+    <select>
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+    </select><br>
+
+    <label for="subscribe">subscribe</label>
+    <input type="checkbox" id="subscribe"><br>
+
+    <label for="comment">comment:</label>
+    <textarea id="comment" rows="3" cols="25"></textarea>
+
+    
+    <label for="file">file</label>
+    <input type="file" id="file" accept="image/png, image/jpeg">
+
+    <input type="reset"><br>
+    <input type="submit">
+
+</form>
+</h1>
+<footer style="color: rgb(0, 83, 192);"><h1>Thats all thanks!</h1></footer>
+</div>
+    </body>
+</html>
